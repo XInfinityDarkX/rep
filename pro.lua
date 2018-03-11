@@ -1,6 +1,6 @@
--- Принадлежит Microb
--- Что бы пользоваться этим на планшете, поменяйте chat_box на chat
---ECS - топ)
+п»ї-- РџСЂРёРЅР°РґР»РµР¶РёС‚ Microb
+-- Р§С‚Рѕ Р±С‹ РїРѕР»СЊР·РѕРІР°С‚СЊСЃСЏ СЌС‚РёРј РЅР° РїР»Р°РЅС€РµС‚Рµ, РїРѕРјРµРЅСЏР№С‚Рµ chat_box РЅР° chat
+--ECS - С‚РѕРї)
 term=require("term")
 term.clear()
 require("component").gpu.setBackground(0x000000)
@@ -10,13 +10,13 @@ for i = 1, 255 do
 end
 local y, z
 local c = require("component")
-io.write("Никнейм: ")
+io.write("РќРёРєРЅРµР№Рј: ")
 z=io.read()
 while true do
-io.write("Количество эмов: ")
+io.write("РљРѕР»РёС‡РµСЃС‚РІРѕ СЌРјРѕРІ: ")
 y=io.read()
-c.chat_box.setName("§r§2[§r§9Деньги§к§2")
-c.chat_box.say("§r"..z.. " §r§2послал вам §r"..y.. "§r.0 §rEmeralds§r§2.")
+c.chat_box.setName("В§rВ§2[В§rВ§9Р”РµРЅСЊРіРёВ§РєВ§2")
+c.chat_box.say("В§r"..z.. " В§rВ§2РїРѕСЃР»Р°Р» РІР°Рј В§r"..y.. "В§r.0 В§rEmeraldsВ§rВ§2.")
 for i = 1, 255 do
     print()
 end
